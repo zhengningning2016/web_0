@@ -9,33 +9,44 @@
 		<tr>
 			<td>用户名：</td>
 			<td>
-				<form action=" " method=" ">
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
 					<input type="text" name="user name"/>
 				</form>
 			</td>
 		</tr>
 		<tr>
 			<td>密码：</td>
-			<td><input type="password" name="password"/></td>
+			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
+				<input type="password" name="password"/>
+				</form>
+			</td>
 		</tr>
 		<tr>
 			<td>确认密码：</td>
-			<td><input type="password" name="password"/></td>
+			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
+				<input type="password" name="password"/>
+				</form>
+			</td>
 		</tr>
 		<tr>
 			<td>性别：</td>
 			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
 				<input type="radio" name="sex" value="male"/>男
-	            <input type="radio" name="sex" value="female"/>女
+	                        <input type="radio" name="sex" value="female"/>女
+				</form>
 			</td>
 		</tr>
 		<tr>
 			<td>生日：</td>
 			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
 				<select name="date">
-                    <option>公历</option>
-	                <option>农历</option>
-                </select>
+                                <option>公历</option>
+	                        <option>农历</option>
+                                </select>
 	            <select name="year">
                     <option>年</option>
 	                <option>1997</option>
@@ -54,11 +65,13 @@
 	                <option>2</option>
 	                <option>3</option>
                 </select>
+			</form>
 			</td>
 		</tr>
 		<tr>
 			<td>所在地：</td>
 			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
 				<select name="contry">
                     <option>中国</option>
 	                <option>英国</option>
@@ -71,46 +84,71 @@
                     <option>石家庄</option>
 	                <option>天津</option>
                 </select>
+			</form>
 			</td>
 		</tr>
 		<tr>
 			<td>验证码：</td>
-			<td><input type="text" name="number"/></td>
+			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
+				<input type="text" name="number"/>
+				<img src="img/验证码.png"/>
+				</form>
+				</td>
 		</tr>
 		<tr>
 			<td>证件类型：</td>
-			<td><select name="ID">
+			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
+				<select name="ID">
                     <option>身份证</option>  
                 </select>
+		</form>
             </td>
 		</tr>
 		<tr>
 			<td>证件号：</td>
-			<td><input type="text" name="id name"/></td>
+			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
+				<input type="text" name="id name"/>
+				</form>
+			</td>
 		</tr>
 		<tr>
 			<td>爱好：</td>
 			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
 				<input type="checkbox" name="hobby[]" value="swimming"/>音乐
 	            <input type="checkbox" name="hobby[]" value="singing"/>读书
 	            <input type="checkbox" name="hobby[]" value="singing"/>跳舞
 	            <input type="checkbox" name="hobby[]" value="singing"/>下棋
-	            <input type="checkbox" name="hobby[]" value="singing"/>其他     
+	            <input type="checkbox" name="hobby[]" value="singing"/>其他  
+		    </form>
            </td>
 		</tr>
 		<tr>
 			<td>说明：</td>
-			<td><textarea cols="25" rows="5"></textarea></td>
+			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
+				<textarea cols="25" rows="5"></textarea>
+				</form>
+			</td>
 		</tr>
 		<tr>
 			<td>上传头像</td>
-			<td><input type="file" name="pic"/></td>
+			<td>
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
+				<input type="file" name="pic"/>
+				</form>
+			</td>
 		</tr>
 		<tr>
 			<td  colspan="2" align="center">
+				<form action="http://10.7.1.98/taozhuo/form_data.php " method=" get">
 				<input type="submit" value="提交"/>
 				<input type="submit" value="重置"/>
 				<input type="submit" value="按钮"/>
+				</form>
 			</td>
 		</tr>
 	</table>
